@@ -2,14 +2,13 @@
 # This is a comment
 # Comment Again
 
-$x = 0;
+$x = 1;
 
 print "Hello world!\n";
 
-
-while($x eq 0){
-	
-	print "This is a loop";
+while($x < 1001){
+	print $x." This is a loop\n";
+	$x++;
 }
 
 
