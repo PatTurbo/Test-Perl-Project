@@ -1,8 +1,9 @@
 #!/bin/perl
 # This is a comment
 # Comment Again
+use strict;
 
-$x = 1;
+my $x = 1;
 
 print "Hello world!\n";
 
@@ -12,3 +13,9 @@ while($x < 1001){
 }
 
 
+
+sub Subroutine1 {
+	
+	
+	
+}
